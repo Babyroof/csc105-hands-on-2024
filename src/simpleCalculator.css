@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./background/mathBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.848);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+  
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+h2 {
+    background: greenyellow;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+  
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+  
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.under-botton-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: blue;
+    }
+
+#reset {
+    background-color: red;
+}
+
+button:hover {
+    background-color: #0b156c;
+}
+
+#reset:hover {
+    background-color: rgb(128, 21, 21);
+}
+
